@@ -191,7 +191,7 @@ Referential, Data
 A citation to another provision is a different kind of defect than a reference to something entirely outside the corpus.
 
 **Litmus test question:**
-Can the referent be resolved to a fixed value at authoring time, purely from the normative corpus? Yes → Referential-Incomplete, but recoverable by inlining. No (dynamic, empirical, project-specific) → Data-dependent, and no rewriting fixes it.
+Can the referent be resolved at authoring time, purely from the normative corpus, including tables and figures? Yes → Referential-Incomplete, but recoverable by inlining. No (dynamic, empirical, project-specific) → Data-dependent, and no rewriting fixes it.
 
 **Application examples:**
 

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the paper below."
+title: "BIM-Checkability: litmus tests, prompts, and gold standard"
+abstract: >-
+  Supporting material for the theory of BIM-checkable requirements: the litmus tests defining the
+  seven properties, the evaluation skill and prompt variants, and a 700-provision human-adjudicated
+  gold standard.
+type: dataset
+authors:
+  - family-names: Lee
+    given-names: Ghang
+    email: glee@yonsei.ac.kr
+    affiliation: Yonsei University
+repository-code: "https://github.com/ghanglee/bim_checkability"
+license: CC-BY-4.0
+keywords:
+  - BIM
+  - automated design compliance checking
+  - building codes
+  - requirement checkability
+  - large language models
+preferred-citation:
+  type: article
+  title: >-
+    Theory and large-scale validation of BIM-checkable requirements for automated design compliance
+    checking
+  authors:
+    - family-names: Lee
+      given-names: Ghang
+      email: glee@yonsei.ac.kr
+      affiliation: Yonsei University
+  year: 2026
