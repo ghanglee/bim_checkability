@@ -14,7 +14,8 @@ three parents:
 
 A requirement is BIM-checkable only if all seven hold. Because the verdict is a conjunction, the
 properties can be evaluated in a fixed order and evaluation can stop at the first failure — the
-**short-circuit** procedure — which reduces the number of assessments without changing any verdict.
+**short-circuit** procedure. Applied to a fixed set of labels, stopping early reduces the number of
+assessments without changing any verdict.
 
 This repository publishes the three artefacts needed to apply and reproduce that method:
 
@@ -125,17 +126,28 @@ weights precision twice as heavily as recall.
 
 ---
 
-## What is not published here
+## Data availability
 
-The full experimental dataset — the raw model outputs for every route and model, the human-rater
-files, and the seven-property labels for the 54,393-provision exhaustiveness corpus — is not
-included. Much of it is derived from copyrighted design guides and building codes that are not
-ours to redistribute, and the human-rater material carries its own restrictions.
+This section matches the data availability statement of the paper.
+
+**Public, in this repository:**
+
+- the litmus tests (`1_Litmus_Test/`),
+- the evaluation skill and every prompt used in the experiments (`2_Skills_and_Prompts/`),
+- the 700-provision gold standard with verdicts, per-property labels, and reasoning (`3_Gold_Standard/`).
+
+**Not redistributable:** the source text of the 54,393-provision exhaustiveness corpus, which is
+drawn from copyrighted building codes and design guides.
+
+**Available from the corresponding author on reasonable request:**
+
+- the seven-property labels for the 54,393-provision corpus,
+- the raw model outputs for every route and model,
+- the human-rater files.
 
 What is here is what a reader needs to apply the theory and to reproduce the evaluation on their
 own corpus: the definitions (litmus tests), the instruments (skill and prompts), and a labelled
-reference set to score against (gold standard). Requests for further material can be directed to
-the corresponding author.
+reference set to score against (gold standard).
 
 Material on the ADCC taxonomy's development methodology and on the agent-escalation method belongs
 to forthcoming papers and is deliberately excluded.
